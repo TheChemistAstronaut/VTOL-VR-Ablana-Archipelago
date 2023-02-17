@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2934828144</PublishedFileId>
+  <Name>Ablana Archipelago</Name>
+  <Description>The Ablana Archipelago is a group of islands located in a strategically important area of the ocean used for SIGINT and training.
+
+by TheChemistAstronaut</Description>
+  <IconFileName>image.png</IconFileName>
+  <Tags>
+    <string>Multiplayer Campaigns</string>
+  </Tags>
+</WorkshopItemInfo>

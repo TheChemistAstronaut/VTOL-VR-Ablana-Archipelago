@@ -1,0 +1,2253 @@
+CustomScenario
+{
+	gameVersion = 1.5.7f1
+	campaignID = AblanaArchipelagoCampaign
+	campaignOrderIdx = 0
+	scenarioName = Ablana Flight Training
+	scenarioID = FLIGHT TRAINING
+	scenarioDescription = Multi-purpose airmanship and offensive/defensive weapon system implementation training area.
+	mapID = AblanaArchipelago
+	vehicle = AV-42C
+	multiplayer = True
+	allowedEquips = gau-8;m230;h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;sidewinderx1;sidewinderx2;sidewinderx3;iris-t-x1;iris-t-x2;iris-t-x3;sidearmx1;sidearmx2;sidearmx3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;42c_aim9ex2;42c_aim9ex1;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = True
+	baseBudget = 150000
+	isTraining = False
+	rtbWptID = wpt:11
+	refuelWptID = wpt:6
+	mpPlayerCount = 25
+	autoPlayerCount = True
+	overrideAlliedPlayerCount = 0
+	overrideEnemyPlayerCount = 0
+	scorePerDeath_A = 0
+	scorePerDeath_B = 0
+	scorePerKill_A = 0
+	scorePerKill_B = 0
+	mpBudgetMode = Life
+	rtbWptID_B = 
+	refuelWptID_B = 
+	separateBriefings = False
+	baseBudgetB = 100000
+	infiniteAmmo = False
+	infAmmoReloadDelay = 5
+	fuelDrainMult = 1
+	envName = day
+	selectableEnv = True
+	qsMode = Anywhere
+	qsLimit = -1
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (110595.65285873413, 2757.333251953125, 117969.63891601563)
+			unitInstanceID = 0
+			unitID = AlliedEWRadar
+			rotation = (5.678547E-06, 213.7583, 3.795469E-06)
+			spawnChance = 100
+			lastValidPlacement = (110595.65285873413, 2757.333251953125, 117969.63891601563)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (111053.6962890625, 2757.333251953125, 118244.35852050781)
+			unitInstanceID = 1
+			unitID = AlliedEWRadar
+			rotation = (-4.713208E-06, 46.36551, -4.943395E-06)
+			spawnChance = 100
+			lastValidPlacement = (111053.6962890625, 2757.333251953125, 118244.35852050781)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MAD-4 Radar
+			globalPosition = (169386.51770019531, 448.1114501953125, 135609.86267089844)
+			unitInstanceID = 2
+			unitID = MAD-4Radar
+			rotation = (358.658, 270.5046, 359.9882)
+			spawnChance = 100
+			lastValidPlacement = (169386.51770019531, 448.1114501953125, 135609.86267089844)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAAW
+			globalPosition = (169112.11968994141, 454.53921508789063, 133978.60302734375)
+			unitInstanceID = 4
+			unitID = SAAW
+			rotation = (358.6571, 272.8391, 359.9334)
+			spawnChance = 100
+			lastValidPlacement = (169112.11968994141, 454.53921508789063, 133978.60302734375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = False
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (169176.68798828125, 453.0264892578125, 134934.52258300781)
+			unitInstanceID = 5
+			unitID = EnemySoldierMANPAD
+			rotation = (358.6597, 272.8391, 359.9335)
+			spawnChance = 100
+			lastValidPlacement = (169176.68798828125, 453.0264892578125, 134934.52258300781)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (169206.60107421875, 452.32571411132813, 134948.13009262085)
+			unitInstanceID = 6
+			unitID = EnemySoldierMANPAD
+			rotation = (358.6598, 272.8391, 359.9334)
+			spawnChance = 100
+			lastValidPlacement = (169206.60107421875, 452.32571411132813, 134948.13009262085)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry MANPADS
+			globalPosition = (169204.58850097656, 452.3729248046875, 134909.17336273193)
+			unitInstanceID = 7
+			unitID = EnemySoldierMANPAD
+			rotation = (358.6598, 272.8391, 359.9334)
+			spawnChance = 100
+			lastValidPlacement = (169204.58850097656, 452.3729248046875, 134909.17336273193)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry
+			globalPosition = (169173.15277099609, 453.10928344726563, 134912.50837993622)
+			unitInstanceID = 8
+			unitID = EnemySoldier
+			rotation = (358.6598, 272.8391, 359.9334)
+			spawnChance = 100
+			lastValidPlacement = (169173.15277099609, 453.10928344726563, 134912.50837993622)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Infantry
+			globalPosition = (169179.46298217773, 452.96142578125, 134951.65735244751)
+			unitInstanceID = 9
+			unitID = EnemySoldier
+			rotation = (358.6597, 272.8391, 359.9335)
+			spawnChance = 100
+			lastValidPlacement = (169179.46298217773, 452.96142578125, 134951.65735244751)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MAD-4 Launcher
+			globalPosition = (169569.1728515625, 443.83251953125, 135252.95941162109)
+			unitInstanceID = 10
+			unitID = MAD-4Launcher
+			rotation = (358.6711, 278.0071, 359.8131)
+			spawnChance = 100
+			lastValidPlacement = (169569.1728515625, 443.83251953125, 135252.95941162109)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MAD-4 Launcher
+			globalPosition = (169696.45239257813, 440.8509521484375, 135963.21173095703)
+			unitInstanceID = 11
+			unitID = MAD-4Launcher
+			rotation = (358.6712, 278.0071, 359.8131)
+			spawnChance = 100
+			lastValidPlacement = (169696.45239257813, 440.8509521484375, 135963.21173095703)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM FireCtrl Radar
+			globalPosition = (173222.76513671875, 358.232421875, 135345.22470092773)
+			unitInstanceID = 12
+			unitID = SamFCR
+			rotation = (358.6711, 278.0071, 359.8131)
+			spawnChance = 100
+			lastValidPlacement = (173222.76513671875, 358.232421875, 135345.22470092773)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (174948.79370117188, 317.7998046875, 135029.80053710938)
+			unitInstanceID = 13
+			unitID = SamFCR2
+			rotation = (358.6712, 278.0071, 359.8131)
+			spawnChance = 100
+			lastValidPlacement = (174948.79370117188, 317.7998046875, 135029.80053710938)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM Launcher
+			globalPosition = (174469.86376953125, 329.01953125, 133047.02325439453)
+			unitInstanceID = 14
+			unitID = SamBattery1
+			rotation = (358.6712, 278.0071, 359.8131)
+			spawnChance = 100
+			lastValidPlacement = (174469.86376953125, 329.01953125, 133047.02325439453)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				radarUnits = 
+				allowReload = False
+				reloadTime = 120
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Z20x2 Anti-Air Artillery
+			globalPosition = (173016.16455078125, 363.072265625, 133154.60266113281)
+			unitInstanceID = 15
+			unitID = staticAAA-20x2
+			rotation = (358.6712, 278.0071, 359.8131)
+			spawnChance = 100
+			lastValidPlacement = (173016.16455078125, 363.072265625, 133154.60266113281)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MBT2-E Tank
+			globalPosition = (177421.27252197266, 261.7760009765625, 120649.3244934082)
+			unitInstanceID = 16
+			unitID = enemyMBT1
+			rotation = (0.01380502, 8.606463, 358.6713)
+			spawnChance = 100
+			lastValidPlacement = (177421.27252197266, 261.7760009765625, 120649.3244934082)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = DMS Cruiser
+			globalPosition = (161761.34378051758, -5, 125280.78743743896)
+			unitInstanceID = 17
+			unitID = DroneMissileCruiser
+			rotation = (0, 1.398226, 0)
+			spawnChance = 100
+			lastValidPlacement = (161761.34378051758, -5, 125280.78743743896)
+			editorPlacementMode = Sea
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Parked
+				defaultWaypoint = null
+				defaultPath = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Gun Boat
+			globalPosition = (161469.90454101563, -5, 128188.11993408203)
+			unitInstanceID = 18
+			unitID = DroneGunBoat
+			rotation = (0, 1.398226, 0)
+			spawnChance = 100
+			lastValidPlacement = (161469.90454101563, -5, 128188.11993408203)
+			editorPlacementMode = Sea
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Parked
+				defaultWaypoint = null
+				defaultPath = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Cruiser
+			globalPosition = (87180.773895263672, -5, 126437.6494140625)
+			unitInstanceID = 19
+			unitID = EscortCruiser
+			rotation = (0, 52.05438, 0)
+			spawnChance = 100
+			lastValidPlacement = (87180.773895263672, -5, 126437.6494140625)
+			editorPlacementMode = Sea
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Parked
+				defaultWaypoint = null
+				defaultPath = null
+				hullNumber = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+				carrierSpawns = 
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Cruiser
+			globalPosition = (87664.206726074219, -5, 125784.52098083496)
+			unitInstanceID = 20
+			unitID = EscortCruiser
+			rotation = (0, 52.05438, 0)
+			spawnChance = 100
+			lastValidPlacement = (87664.206726074219, -5, 125784.52098083496)
+			editorPlacementMode = Sea
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Parked
+				defaultWaypoint = null
+				defaultPath = null
+				hullNumber = 0
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = False
+				respawnable = False
+				receiveFriendlyDamage = True
+				carrierSpawns = 
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Aircraft Carrier
+			globalPosition = (12956.425048828125, -5, 203135.12700653076)
+			unitInstanceID = 21
+			unitID = AlliedCarrier
+			rotation = (0, 89.54362, 0)
+			spawnChance = 100
+			lastValidPlacement = (12956.425048828125, -5, 203135.12700653076)
+			editorPlacementMode = Sea
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 0
+				hullNumber = 0
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+				carrierSpawns = 
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Cruiser
+			globalPosition = (22769.439453125, -5, 203248.37109375)
+			unitInstanceID = 23
+			unitID = EscortCruiser
+			rotation = (0, 90.80238, 0)
+			spawnChance = 100
+			lastValidPlacement = (22769.439453125, -5, 203248.37109375)
+			editorPlacementMode = Sea
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Navigate_Path
+				defaultWaypoint = null
+				defaultPath = 0
+				hullNumber = 0
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+				carrierSpawns = 
+			}
+		}
+		UnitSpawner
+		{
+			unitName = KC-49
+			globalPosition = (107543.384765625, 9994.998046875, 289.220703125)
+			unitInstanceID = 24
+			unitID = KC-49
+			rotation = (0, 314.1883, 0)
+			spawnChance = 100
+			lastValidPlacement = (107543.384765625, 9994.998046875, 289.220703125)
+			editorPlacementMode = Air
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Orbit
+				initialSpeed = 300
+				defaultNavSpeed = 300
+				defaultOrbitPoint = 6
+				defaultPath = null
+				orbitAltitude = 10000
+				fuel = 100
+				autoRefuel = True
+				autoRTB = True
+				rtbDestination = map:0
+				parkedStartMode = FlightReady
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAM S/A Radar
+			globalPosition = (83755.193305969238, 592.17757177352905, 123516.5079574585)
+			unitInstanceID = 25
+			unitID = AlliedEWRadar
+			rotation = (-1.754928E-05, 194.7132, 1.304609E-05)
+			spawnChance = 100
+			lastValidPlacement = (83755.193305969238, 592.17757177352905, 123516.5079574585)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = E-4 Overlord
+			globalPosition = (82854.58065032959, 478.89302444458008, 122347.0891494751)
+			unitInstanceID = 26
+			unitID = E-4
+			rotation = (-1.26865E-05, 316, 3.823542E-07)
+			spawnChance = 100
+			lastValidPlacement = (82854.58065032959, 478.89302444458008, 122347.0891494751)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				awacsVoiceProfile = null
+				commsEnabled = True
+				unitGroup = null
+				defaultBehavior = Parked
+				initialSpeed = 210
+				defaultNavSpeed = 210
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 300
+				fuel = 0
+				autoRefuel = True
+				autoRTB = True
+				defaultRadarEnabled = False
+				rtbDestination = 
+				parkedStartMode = Cold
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = B-11 Bomber
+			globalPosition = (82922.693946838379, 473.68305969238281, 122418.80345153809)
+			unitInstanceID = 27
+			unitID = ABomberAI
+			rotation = (-1.26865E-05, 316, 3.823542E-07)
+			spawnChance = 100
+			lastValidPlacement = (82922.693946838379, 473.68305969238281, 122418.80345153809)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				voiceProfile = null
+				playerCommandsMode = Unit_Group_Only
+				defaultBehavior = Parked
+				initialSpeed = 280
+				defaultNavSpeed = 280
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3000
+				fuel = 0
+				autoRefuel = False
+				autoRTB = False
+				rtbDestination = 
+				parkedStartMode = Cold
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = KC-49
+			globalPosition = (83001.284637451172, 478.89308166503906, 122487.03643798828)
+			unitInstanceID = 28
+			unitID = KC-49
+			rotation = (-1.26865E-05, 316, 3.823542E-07)
+			spawnChance = 100
+			lastValidPlacement = (83001.284637451172, 478.89308166503906, 122487.03643798828)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				defaultBehavior = Parked
+				initialSpeed = 160
+				defaultNavSpeed = 160
+				defaultOrbitPoint = null
+				defaultPath = null
+				orbitAltitude = 3500
+				fuel = 0
+				autoRefuel = False
+				autoRTB = False
+				rtbDestination = 
+				parkedStartMode = Cold
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (81982.764953613281, 470.3011474609375, 121781.45837402344)
+			unitInstanceID = 29
+			unitID = MultiplayerSpawn
+			rotation = (9.934599E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (81982.764953613281, 470.3011474609375, 121781.45837402344)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82146.296081542969, 470.30123901367188, 121945.78875732422)
+			unitInstanceID = 31
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (82146.296081542969, 470.30123901367188, 121945.78875732422)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82292.130004882813, 470.30130004882813, 122086.17132568359)
+			unitInstanceID = 32
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (82292.130004882813, 470.30130004882813, 122086.17132568359)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82570.616790771484, 470.30140686035156, 122349.83264160156)
+			unitInstanceID = 33
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (82570.616790771484, 470.30140686035156, 122349.83264160156)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82719.10400390625, 470.30146026611328, 122490.66143798828)
+			unitInstanceID = 34
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (82719.10400390625, 470.30146026611328, 122490.66143798828)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82864.8623046875, 470.30152893066406, 122630.80258178711)
+			unitInstanceID = 35
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (82864.8623046875, 470.30152893066406, 122630.80258178711)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83031.7333984375, 470.30160522460938, 122792.14086914063)
+			unitInstanceID = 36
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (83031.7333984375, 470.30160522460938, 122792.14086914063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83280.772613525391, 470.30172729492188, 123028.55718994141)
+			unitInstanceID = 37
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (83280.772613525391, 470.30172729492188, 123028.55718994141)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83429.116485595703, 470.30178833007813, 123169.53814697266)
+			unitInstanceID = 38
+			unitID = MultiplayerSpawn
+			rotation = (9.934705E-07, 136, -2.23233E-05)
+			spawnChance = 100
+			lastValidPlacement = (83429.116485595703, 470.30178833007813, 123169.53814697266)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = F/A-26 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point A
+			globalPosition = (82716.850036621094, 470.30123901367188, 121552.04321289063)
+			unitInstanceID = 39
+			unitID = AlliedRearmRefuelPoint
+			rotation = (5.812519E-07, 134.9424, -2.233784E-05)
+			spawnChance = 100
+			lastValidPlacement = (82716.850036621094, 470.30123901367188, 121552.04321289063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rearm/Refuel Point A
+			globalPosition = (83423.871124267578, 470.30157470703125, 122244.26419067383)
+			unitInstanceID = 40
+			unitID = AlliedRearmRefuelPoint
+			rotation = (5.812519E-07, 134.9424, -2.233784E-05)
+			spawnChance = 100
+			lastValidPlacement = (83423.871124267578, 470.30157470703125, 122244.26419067383)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				spawnOnStart = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82954.30549621582, 470.30160522460938, 122911.51800537109)
+			unitInstanceID = 41
+			unitID = MultiplayerSpawn
+			rotation = (-1.657493E-05, 1.333436, 1.498628E-05)
+			spawnChance = 100
+			lastValidPlacement = (82954.30549621582, 470.30160522460938, 122911.51800537109)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82765.185180664063, 470.30157470703125, 122915.57690429688)
+			unitInstanceID = 42
+			unitID = MultiplayerSpawn
+			rotation = (-1.657493E-05, 1.333436, 1.498628E-05)
+			spawnChance = 100
+			lastValidPlacement = (82765.185180664063, 470.30157470703125, 122915.57690429688)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82639.579803466797, 470.30152893066406, 122822.81994628906)
+			unitInstanceID = 43
+			unitID = MultiplayerSpawn
+			rotation = (-5.337135E-07, 314.8205, 2.233902E-05)
+			spawnChance = 100
+			lastValidPlacement = (82639.579803466797, 470.30152893066406, 122822.81994628906)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82522.766265869141, 470.30148315429688, 122719.60140991211)
+			unitInstanceID = 44
+			unitID = MultiplayerSpawn
+			rotation = (-5.337135E-07, 314.8205, 2.233902E-05)
+			spawnChance = 100
+			lastValidPlacement = (82522.766265869141, 470.30148315429688, 122719.60140991211)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82522.766265869141, 470.30148315429688, 122719.60140991211)
+			unitInstanceID = 45
+			unitID = MultiplayerSpawn
+			rotation = (-5.337135E-07, 314.8205, 2.233902E-05)
+			spawnChance = 100
+			lastValidPlacement = (0, 0, 0)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82432.054626464844, 470.30143737792969, 122587.47625732422)
+			unitInstanceID = 46
+			unitID = MultiplayerSpawn
+			rotation = (1.487445E-05, 271.7188, 1.667535E-05)
+			spawnChance = 100
+			lastValidPlacement = (82432.054626464844, 470.30143737792969, 122587.47625732422)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82427.187469482422, 470.30140686035156, 122396.70831298828)
+			unitInstanceID = 47
+			unitID = MultiplayerSpawn
+			rotation = (1.487445E-05, 271.7188, 1.667535E-05)
+			spawnChance = 100
+			lastValidPlacement = (82427.187469482422, 470.30140686035156, 122396.70831298828)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = F-45 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82427.187469482422, 470.30140686035156, 122396.70831298828)
+			unitInstanceID = 48
+			unitID = MultiplayerSpawn
+			rotation = (-1.012089E-06, 316.0478, 2.232246E-05)
+			spawnChance = 100
+			lastValidPlacement = (0, 0, 0)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = AV-42C KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83253.854309082031, 470.301513671875, 122073.38537597656)
+			unitInstanceID = 49
+			unitID = MultiplayerSpawn
+			rotation = (-1.01209E-06, 316.0479, 2.232246E-05)
+			spawnChance = 100
+			lastValidPlacement = (83253.854309082031, 470.301513671875, 122073.38537597656)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = AV-42C KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83109.239074707031, 470.30142211914063, 121935.0827331543)
+			unitInstanceID = 50
+			unitID = MultiplayerSpawn
+			rotation = (-1.01209E-06, 316.0479, 2.232246E-05)
+			spawnChance = 100
+			lastValidPlacement = (83109.239074707031, 470.30142211914063, 121935.0827331543)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = AV-42C KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82553.70068359375, 470.3011474609375, 121388.796875)
+			unitInstanceID = 51
+			unitID = MultiplayerSpawn
+			rotation = (-1.01209E-06, 316.0479, 2.232246E-05)
+			spawnChance = 100
+			lastValidPlacement = (82553.70068359375, 470.3011474609375, 121388.796875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = AV-42C KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (82418.871307373047, 470.3011474609375, 121247.81866455078)
+			unitInstanceID = 52
+			unitID = MultiplayerSpawn
+			rotation = (-1.01209E-06, 316.0479, 2.232246E-05)
+			spawnChance = 100
+			lastValidPlacement = (82418.871307373047, 470.3011474609375, 121247.81866455078)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = AV-42C KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83638.905944824219, 470.58441162109375, 123323.59280395508)
+			unitInstanceID = 53
+			unitID = MultiplayerSpawn
+			rotation = (-1.092618E-05, 225.9643, 3.438867E-06)
+			spawnChance = 100
+			lastValidPlacement = (83638.905944824219, 470.58441162109375, 123323.59280395508)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH-94
+				slotLabel = AH-94 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+				slots = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83599.815124511719, 470.58441162109375, 123363.87127685547)
+			unitInstanceID = 54
+			unitID = MultiplayerSpawn
+			rotation = (-1.092618E-05, 225.9643, 3.438867E-06)
+			spawnChance = 100
+			lastValidPlacement = (83599.815124511719, 470.58441162109375, 123363.87127685547)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH-94
+				slotLabel = AH-94 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+				slots = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83558.798675537109, 470.58441162109375, 123324.87377929688)
+			unitInstanceID = 55
+			unitID = MultiplayerSpawn
+			rotation = (1.094172E-05, 46.22503, -3.389104E-06)
+			spawnChance = 100
+			lastValidPlacement = (83558.798675537109, 470.58441162109375, 123324.87377929688)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH-94
+				slotLabel = AH-94 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+				slots = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (83598.736419677734, 470.58441162109375, 123283.12342834473)
+			unitInstanceID = 56
+			unitID = MultiplayerSpawn
+			rotation = (1.094172E-05, 46.22503, -3.389104E-06)
+			spawnChance = 100
+			lastValidPlacement = (83598.736419677734, 470.58441162109375, 123283.12342834473)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = AH-94
+				slotLabel = AH-94 KOZAK AFB
+				unitGroup = null
+				startMode = Cold
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				receiveFriendlyDamage = True
+				slots = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rocket Artillery Truck
+			globalPosition = (171334.45703125, 423.4580078125, 113106.31274414063)
+			unitInstanceID = 57
+			unitID = ERocketTruck
+			rotation = (0.07879823, 3.225832, 358.6021)
+			spawnChance = 100
+			lastValidPlacement = (171334.45703125, 423.4580078125, 113106.31274414063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				defaultShotsPerSalvo = 1
+				rippleRate = 60
+				allowReload = True
+				reloadTime = 180
+				unitGroup = null
+				moveSpeed = Fast_30
+				behavior = Path
+				defaultPath = 1
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rocket Artillery Truck
+			globalPosition = (171329.47143554688, 423.57992553710938, 113010.70239257813)
+			unitInstanceID = 58
+			unitID = ERocketTruck
+			rotation = (0.07879823, 3.225831, 358.6021)
+			spawnChance = 100
+			lastValidPlacement = (171329.47143554688, 423.57992553710938, 113010.70239257813)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				defaultShotsPerSalvo = 1
+				rippleRate = 60
+				allowReload = True
+				reloadTime = 180
+				unitGroup = null
+				moveSpeed = Fast_30
+				behavior = Path
+				defaultPath = 1
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rocket Artillery Truck
+			globalPosition = (171320.90454101563, 423.78933715820313, 112846.42602539063)
+			unitInstanceID = 59
+			unitID = ERocketTruck
+			rotation = (0.07879823, 3.225831, 358.6021)
+			spawnChance = 100
+			lastValidPlacement = (171320.90454101563, 423.78933715820313, 112846.42602539063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				defaultShotsPerSalvo = 1
+				rippleRate = 60
+				allowReload = True
+				reloadTime = 180
+				unitGroup = null
+				moveSpeed = Fast_30
+				behavior = Path
+				defaultPath = 1
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Rocket Artillery Truck
+			globalPosition = (171324.82299804688, 423.69357299804688, 112921.56323242188)
+			unitInstanceID = 60
+			unitID = ERocketTruck
+			rotation = (0.07879823, 3.225831, 358.6021)
+			spawnChance = 100
+			lastValidPlacement = (171324.82299804688, 423.69357299804688, 112921.56323242188)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				defaultShotsPerSalvo = 1
+				rippleRate = 60
+				allowReload = True
+				reloadTime = 180
+				unitGroup = null
+				moveSpeed = Fast_30
+				behavior = Path
+				defaultPath = 1
+				waypoint = null
+				engageEnemies = False
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				respawnable = False
+				receiveFriendlyDamage = True
+			}
+		}
+	}
+	PATHS
+	{
+		PATH
+		{
+			id = 0
+			name = Carrier Path
+			loop = True
+			points = (15900.87109375, -5, 203163.1953125);(95904.7265625, -5, 203690.4921875);(161836.109375, -5, 204125.0390625);(172461.15625, -5, 204214.1640625);(176554.890625, -5, 200892.8671875);(172855.40625, -5, 195634.3359375);(167973.15625, -5, 195494.203125);(162622.390625, -5, 195340.625);(118225.03125, -5, 194458.72265625);(52243.59375, -5, 193148.0859375);(8376.08984375, -5, 192276.71484375);(490.1640625, -5, 197624.1953125);(4873.4375, -5, 201814.15625);(7208.072265625, -5, 203184.7890625);
+			pathMode = Smooth
+		}
+		PATH
+		{
+			id = 1
+			name = MOA 1 AG Moving Target
+			loop = True
+			points = (171404.609375, 400.837890625, 110204.796875);(170975.25, 517.53271484375, 117249.3486328125);(170600.0625, 524.57568359375, 123405.080078125);(172520.734375, 434.86767578125, 126112.1796875);(174989.515625, 369.341796875, 125655.970703125);(175905.734375, 325.32958984375, 123149.0546875);(176109.109375, 290.6689453125, 119812.4560546875);(176334.625, 285.3876953125, 116112.3515625);(176525.875, 261.6298828125, 112974.4033203125);(176695.46875, 178.4091796875, 110191.83203125);(174972.265625, 155.19677734375, 108202.8671875);(172391.03125, 219.849609375, 106859.11328125);(171196.828125, 358.43408203125, 108184.0859375);
+			pathMode = Smooth
+		}
+	}
+	WAYPOINTS
+	{
+		bullseyeID = 1
+		WAYPOINT
+		{
+			id = 0
+			name = MOA 1 AD Targets
+			globalPoint = (172110.876953125, 384.2822265625, 134178.490234375)
+		}
+		WAYPOINT
+		{
+			id = 1
+			name = BULLSEYE
+			globalPoint = (110703.72866821289, 2763.3447265625, 117998.40998840332)
+		}
+		WAYPOINT
+		{
+			id = 2
+			name = KOZAK AFB RWY 05
+			globalPoint = (82168.654327392578, 470.3011474609375, 121485.24203491211)
+		}
+		WAYPOINT
+		{
+			id = 3
+			name = KOZAK AFB RWY 23
+			globalPoint = (84094.570676803589, 470.30197143554688, 123347.18309020996)
+		}
+		WAYPOINT
+		{
+			id = 4
+			name = MOA 1 A/G Targets
+			globalPoint = (177368.88410568237, 261.094482421875, 120589.07195186615)
+		}
+		WAYPOINT
+		{
+			id = 5
+			name = MOA 1 A/S Targets
+			globalPoint = (161620.51318359375, -5, 126686.97395324707)
+		}
+		WAYPOINT
+		{
+			id = 6
+			name = TANKER ORBIT POINT
+			globalPoint = (82495.470703125, 468.3916015625, 29145.783203125)
+		}
+		WAYPOINT
+		{
+			id = 7
+			name = BAMBI RNAV
+			globalPoint = (146132.6875, 9994.998046875, 178303.28125)
+		}
+		WAYPOINT
+		{
+			id = 8
+			name = ABRMS RNAV
+			globalPoint = (148207.548828125, 9994.998046875, 11522.21875)
+		}
+		WAYPOINT
+		{
+			id = 9
+			name = LEPRD RNAV
+			globalPoint = (62078.3125, 9994.998046875, 10520.048828125)
+		}
+		WAYPOINT
+		{
+			id = 10
+			name = JAVLN RNAV
+			globalPoint = (19853.29296875, 9994.9970703125, 72926.51171875)
+		}
+		WAYPOINT
+		{
+			id = 11
+			name = KOZAK RNAV
+			globalPoint = (91396.07421875, 1541.591796875, 130410.658203125)
+		}
+		WAYPOINT
+		{
+			id = 12
+			name = MOA 2 SE Corner
+			globalPoint = (80012.386108398438, 3732.47802734375, 144415.2353515625)
+		}
+	}
+	UNITGROUPS
+	{
+	}
+	TimedEventGroups
+	{
+	}
+	TRIGGER_EVENTS
+	{
+	}
+	OBJECTIVES
+	{
+		Objective
+		{
+			objectiveName = MOA 1 AD Targets
+			objectiveInfo = The location of simulated enemy Air Defense installations within MOA 1.
+			objectiveID = 0
+			orderID = 5
+			required = True
+			completionReward = 0
+			waypoint = 0
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = MOA 1 A/G Targets
+			objectiveInfo = The location of Air to Ground targets within MOA 1.
+			objectiveID = 1
+			orderID = 7
+			required = True
+			completionReward = 0
+			waypoint = 4
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = MOA 1 A/S Targets
+			objectiveInfo = The location of simulated enemy naval surface targets.
+			objectiveID = 2
+			orderID = 6
+			required = True
+			completionReward = 0
+			waypoint = 5
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = MOA 1 A/G Moving TGT
+			objectiveInfo = The location of moving air to ground targets in MOA 1.
+			objectiveID = 3
+			orderID = 8
+			required = True
+			completionReward = 0
+			waypoint = unit:57
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Destroy
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				targets = 57;
+				minRequired = 1
+				perUnitReward = 0
+				fullCompleteBonus = 0
+			}
+		}
+		Objective
+		{
+			objectiveName = JAVLN RNAV
+			{objectiveInfo} = {JAVLN RNAV GPS Navigation Point Pronounced "JAVELIN"}
+			objectiveID = 4
+			orderID = 1
+			required = True
+			completionReward = 0
+			waypoint = 10
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = LEPRD RNAV
+			{objectiveInfo} = {LEPRD RNAV GPS Navigation Point Pronounced "LEOPARD"}
+			objectiveID = 5
+			orderID = 2
+			required = True
+			completionReward = 0
+			waypoint = 9
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = ABRMS RNAV
+			{objectiveInfo} = {ABRMS RNAV GPS Navigation Point Pronounced "ABRAMS"}
+			objectiveID = 6
+			orderID = 3
+			required = True
+			completionReward = 0
+			waypoint = 8
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = BAMBI RNAV
+			{objectiveInfo} = {BAMBI RNAV GPS Navigation Point Pronounced "BAMBI"}
+			objectiveID = 7
+			orderID = 4
+			required = True
+			completionReward = 0
+			waypoint = 7
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = KOZAK RNAV
+			objectiveInfo = KOZAK RNAV GPS Navigation Waypoint
+			objectiveID = 8
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+		Objective
+		{
+			objectiveName = MOA 2 SE CORNER
+			objectiveInfo = The south-east corner of MOA 2. Do not cross South or East if in BFM practice.
+			objectiveID = 9
+			orderID = 9
+			required = True
+			completionReward = 0
+			waypoint = 12
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Fly_To
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				triggerRadius = 10
+				sphericalRadius = True
+			}
+		}
+	}
+	OBJECTIVES_OPFOR
+	{
+	}
+	StaticObjects
+	{
+		StaticObject
+		{
+			prefabID = helipad
+			id = 0
+			globalPos = (110688.99185943604, 2757.333251953125, 118058.21266174316)
+			rotation = (0, 136.0821, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 1
+			globalPos = (80225.170532226563, 3647.54150390625, 142307.73025512695)
+			rotation = (0, 165.6935, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 2
+			globalPos = (177432.0537109375, 259.615234375, 120647.89392089844)
+			rotation = (358.6712, 278.0114, -5.337521E-08)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 3
+			globalPos = (177410.72173404694, 260.11447143554688, 120650.91766738892)
+			rotation = (358.6712, 278.0114, -1.067504E-07)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 4
+			globalPos = (177423.15906524658, 259.8231201171875, 120660.98369216919)
+			rotation = (359.7989, 188.6181, -3.335074E-09)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 5
+			globalPos = (177419.64399719238, 259.90545654296875, 120637.91971206665)
+			rotation = (0.2006239, 8.597491, -5.00261E-09)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 6
+			globalPos = (177339.87933349609, 261.77392578125, 120473.24270820618)
+			rotation = (0.2007383, 8.602134, 358.6732)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 7
+			globalPos = (177306.18604278564, 262.56317138671875, 120528.99912261963)
+			rotation = (0.2007383, 8.602134, 358.6732)
+		}
+		StaticObject
+		{
+			prefabID = FuelTank
+			id = 8
+			globalPos = (177417.45035362244, 259.95684814453125, 120549.71153640747)
+			rotation = (0.2007315, 8.602136, 358.6732)
+		}
+		StaticObject
+		{
+			prefabID = WatchTower
+			id = 9
+			globalPos = (177326.5843963623, 262.17279052734375, 120660.62255859375)
+			rotation = (0, 8.602135, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 10
+			globalPos = (171316.35205078125, 403.26904296875, 134083.49305725098)
+			rotation = (0, 1.39746, 0)
+		}
+		StaticObject
+		{
+			prefabID = helipad
+			id = 11
+			globalPos = (79520.738548278809, 4998.5888671875, 65423.082084655762)
+			rotation = (0, 351.141, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 12
+			globalPos = (82916.127815246582, 470.2530632019043, 122425.50702667236)
+			rotation = (0, 316, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 13
+			globalPos = (82990.87174987793, 470.25309753417969, 122497.5679473877)
+			rotation = (0, 316, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 14
+			globalPos = (82844.847389221191, 470.25302886962891, 122357.18759536743)
+			rotation = (0, 316, 0)
+		}
+	}
+	Conditionals
+	{
+	}
+	ConditionalActions
+	{
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+		BaseInfo
+		{
+			id = 0
+			overrideBaseName = 
+			baseTeam = Allied
+		}
+		BaseInfo
+		{
+			id = 2
+			overrideBaseName = 
+			baseTeam = Allied
+		}
+	}
+	GlobalValues
+	{
+	}
+	Briefing
+	{
+		BRIEFING_NOTE
+		{
+			{text} = {Welcome to Air Force Base KOZAK.///n///nThe use of the provided charts, available on github, is reccomended for navigational proficiency.///n///nThe training areas surrounding the airbase are composed of 3 "Military Operations Areas".///n///nRelevant navigational points have been preloaded by the ground crew onto your aircraft, under "OBJECTIVES".}
+			imagePath = Ablana Operational Navigation Chart.png
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = MOA 1 - A/G TRAINING AREA///nConsists of the entire island enclosed within the MOA, up to an altitude of 10,000 ft.///n///nMOA 1 contains simulated enemy air defenses, moving and stationary air to ground targets, and air to ship targets.///n///nWEAPON RELEASE IS PROHIBITED OUTSIDE OF MOA 1
+			imagePath = Ablana MOA 1.JPG
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = MOA 2 - AIRMANSHIP / BFM TRAINING///n///nMOA 2 extends to the North and West of MT. KORETZ observatory, from a floor of 5,000 FT to 30,000 FT.///n///nThis area is for BFM training and aerobatic maneuver familiarization.///n///nDUE TO PRESENCE OF POPULATED AREAS, NON-STANDARD MANEUVERING IS PROHIBITED OUTSIDE OF MOA 2
+			imagePath = Ablana MOA 2.JPG
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = MOA 3 - KOZAK AIR FORCE BASE///n///nThe airspace surrounding KOZAK AFB up to 10,000 FT.
+			imagePath = Ablana MOA 3.JPG
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			{text} = {Area Navigation (RNAV) Waypoints///n///nRNAV Points KOZAK, JAVLN, LEPRD, ABRMS, and BAMBI have been pre-loaded onto your navigational system under "OBJECTIVES".}
+			imagePath = Ablana Operational Navigation Chart RNAV HIGHLIGHTS.png
+			audioClipPath = 
+		}
+		BRIEFING_NOTE
+		{
+			text = KOZAK AFB / ABLANA SOP///n///nDischarge of weapons while flying West through MOA 1 is PROHIBITED (Risk of mishap and subsequent danger to populated areas West of MOA)
+			imagePath = Ablana Operational Navigation Chart.png
+			audioClipPath = 
+		}
+	}
+	Briefing_B
+	{
+	}
+	ResourceManifest
+	{
+		0 = Ablana Operational Navigation Chart.png
+		1 = Ablana MOA 1.JPG
+		2 = Ablana MOA 2.JPG
+		3 = Ablana MOA 3.JPG
+		4 = Ablana Operational Navigation Chart RNAV HIGHLIGHTS.png
+	}
+}
+
